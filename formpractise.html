@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 5px;
+        }
+
+        .one {
+            height: 600px;
+            width: 500px;
+            background-color: rgb(252, 248, 248);
+            border: 5px solid rgb(130, 125, 125);
+           
+        }
+
+        .heading {
+            height: 40px;
+            background-color: rgb(248, 248, 150);
+            text-align: center;
+            color: red;
+        }
+
+        .name {
+            height: 40px;
+            background-color: rgb(251, 246, 246);
+
+            margin: 0%;
+        }
+
+        .h {
+            width: 85px;
+            height: 38px;
+            border: 1px solid black;
+            background-color: skyblue;
+            font-size: 18px;
+            text-align: center;
+            float: left;
+
+        }
+
+        .d {
+            background-color: skyblue;
+            border: 1px solid;
+            height: 38px;
+            width: 380px;
+            float: left;
+            align-content: center;
+
+        }
+
+        .h2 {
+            width: 85px;
+            height: 100px;
+            border: 1px solid black;
+            background-color: skyblue;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            text-align: center;
+        }
+
+        .d2 {
+            background-color: skyblue;
+            border: 1px solid;
+            height: 100px;
+            width: 380px;
+            float: left;
+            align-content: center;
+        }
+
+        .h3 {
+
+            width: 85px;
+            height: 140px;
+            border: 1px solid black;
+            background-color: skyblue;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            text-align: center;
+        }
+
+        .d3 {
+            background-color: skyblue;
+            border: 1px solid;
+            height: 140px;
+            width: 380px;
+            float: left;
+            align-content: center;
+        }
+
+        .h4 {
+            width: 85px;
+            height: 25px;
+            border: 1px solid black;
+            background-color: skyblue;
+            font-size: 18px;
+            text-align: center;
+            float: left;
+        }
+
+        .d4 {
+            background-color: skyblue;
+            border: 1px solid;
+            height: 25px;
+            width: 380px;
+            float: left;
+            align-content: center;
+         }
+         .h5 {
+            width: 85px;
+            height: 42px;
+            border: 1px solid black;
+            background-color: skyblue;
+            font-size: 18px;
+            text-align: center;
+            float: left;
+
+        }
+        .d5{
+            background-color: skyblue;
+            border: 1px solid;
+            height: 42px;
+            width: 380px;
+            float: left;
+            align-content: center;
+         }
+         .button{
+            border: 1px solid;
+            float: left;
+            width: 476px;
+            background-color: skyblue;
+         }
+        .Click{
+            width: 130px;
+            font-size: 20px;
+        }
+        .submit{
+            width: 153px;
+            font-size: 20px;
+        }
+        .reset{
+            width: 130px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <form action="post">
+            <div class="heading">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="name">
+                <div class="h">
+                    Enter Name
+                </div>
+                <div class="d">
+                    <input type="text" name="name" placeholder="Enter your Name">
+                </div>
+            </div>
+            <div class="name">
+                <div class="h">
+                    Enter Password
+                </div>
+                <div class="d">
+                    <input type="password" name="password" placeholder="Enter your Password">
+                </div>
+            </div>
+            <div class="h2">
+                Enter Address
+            </div>
+            <div class="d2">
+                <textarea name=""></textarea>
+            </div>
+            <div class="h3">
+                Select Game
+            </div>
+            <div class="d3">
+                <input type="checkbox" name="game" value="Hockey">Hockey<br>
+                <input type="checkbox" name="game" value="Football">Football<br>
+                <input type="checkbox" name="game" value="Badminton">Badminton<br>
+                <input type="checkbox" name="game" value="Cricket">Cricket<br>
+                <input type="checkbox" name="game" value="Volleyball">Volleyball<br>
+            </div>
+            <div class="h4">
+                Gender
+            </div>
+            <div class="d4">
+                <input type="radio" name="Gender" value="Male" checked>Male
+                <input type="radio" name="Gender" value="Female">Female
+            </div>
+            <div class="h5">
+                Select your Age
+            </div>
+            <div class="d5">
+                <select name="age" >
+                    <option >Select your age</option>                    
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="More than 20">More than 20</option>
+                </select>
+            </div>
+            <div class="h5">
+                Select Photo
+            </div> 
+            <div class="d5">
+                <input type="file" >
+            </div>
+            <div class="button">
+                
+               <button class="Click">Click Me</button>
+               <button type="submit" class="submit"> Submit Form</button>
+                <button class="reset" type="reset">Reset</button>
+            </div>   
+        </form>
+    </div>
+</body>
+
+</html>
